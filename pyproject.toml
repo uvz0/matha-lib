@@ -3,20 +3,19 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "matha-lib" # If this fails, try "matha-astro" or something unique
-version = "1.0.0"        # Bumping version to avoid PyPI conflicts
+name = "matha-lib"
+version = "0.1.0"
 authors = [
   { name="AstroJr0" },
 ]
-description = "Math All Utilities (matha): The unhinged universal math library."
+description = "A universal math library for Python: Math All Utilities."
 readme = "README.md"
 requires-python = ">=3.10"
-
-# This fixed the License Deprecation Warning
 license = { text = "MIT" }
 
 classifiers = [
     "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 
@@ -26,10 +25,10 @@ dependencies = [
     "matplotlib>=3.8.0",
 ]
 
-# --- THE ABSOLUTE FIX FOR THE 'ISSUES' ERROR ---
 [tool.setuptools]
-# This tells Python: "I am only interested in this specific folder"
+# Force setuptools to only package the 'matha' code folder
 packages = ["matha"]
 
 [project.urls]
-"Homepage" = "https://github.com/AstroJr0/Matha"
+"Homepage" = "https://github.com/AstroJr0/matha-lib"
+"Bug Tracker" = "https://github.com/AstroJr0/matha-lib/issues"

@@ -20,10 +20,11 @@ from .special_functions import *
 from .graph import *
 from .solvers import *
 
-__version__ = "1.1.0"
+__version__ = "1.1.1"
 
 # Define __all__ for explicit export control (good practice)
 __all__ = [
     # List functions/classes you guys want to export here, 
     # but using '*' imports above is often simpler for utility libraries. its efficent :)
 ]
+

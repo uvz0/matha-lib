@@ -11,7 +11,7 @@ If you’re tired of:
 
 Then congratulations. You’ve reached the endgame.
 
-**matha exists so you can stop importing libraries and start importing authority.**
+**matha-lib exists so you can stop importing libraries and start importing authority.**
 
 
 
@@ -32,7 +32,7 @@ We are precise.**
 
 ## 🧾 Final Warning
 
-Once you start using matha,
+Once you start using matha-lib,
 going back to fragmented math libraries will feel like:
 
 > Writing assembly after tasting Python
@@ -74,8 +74,8 @@ import matha as super_duper_ultimate_mathmatics_library_which_is_still_in_v1_but
 ## Want the Library?
 Use this :)
 ```bash
-https://github.com/AstroJr0/Matha.git -o matha
-cd matha
+https://github.com/AstroJr0/matha-lib.git -o matha-lib
+cd matha-lib
 ```
 ---
 

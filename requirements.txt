@@ -1,0 +1,14 @@
+# --- matha: Math All Utilities (Dependencies) ---
+# @Author : AstroJr0
+# @Date : 17-12-25
+# ------------------------------------------------
+
+# Core Computational Engines
+numpy>=1.26.0
+scipy>=1.11.0
+
+# Visualization
+matplotlib>=3.8.0
+
+# Testing Framework
+pytest>=9.0.2

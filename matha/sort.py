@@ -1,6 +1,7 @@
+# src/sort.py
 # ---------------------
-# Date: 30-01-2026
-# Author: AstroJr0
+# @Date: 30-01-2026
+# @Author: AstroJr0
 # ---------------------
 
 # General O(N^2)
@@ -436,3 +437,4 @@ def sleep_sort(array) -> list:
         t.join()
         
     return sorted_list
+

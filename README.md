@@ -81,8 +81,9 @@ cd matha-lib
 
 🧮 huh? too lazy to copy-paste-cut-clone the library?
 
-[![PyPI version](https://img.shields.io/pypi/v/matha-lib.svg)](https://pypi.org/project/matha-lib/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI version](https://img.shields.io/pypi/v/matha-lib.svg?style=for-the-badge)](https://pypi.org/project/matha-lib/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 Just use this instead!
 
 ```bash
